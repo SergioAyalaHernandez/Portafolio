@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,900;1,400&family=Poppins:wght@500;700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+  padding-top: 5%;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #949090;
+  text-align: center;
+  margin-bottom: 5rem;
+  font-weight: bolder;
+}
+
+.services-content{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 8%;
+}
+
+.services-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  background-color: #7a2727;
+  border-radius: 0.4rem;
+  transition: 0.5s all cubic-bezier(0.75,0.82,0.165,1);
+  backdrop-filter: blur(5px);
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.services-box:hover{
+  transform: scale(1.05);
+  transition: 0.5s all cubic-bezier(0.75,0.82,0.165,1);
+  border: 2px inset white;
+}
+
+.services-box .bx{
+  font-size: 2.4rem;
+  color: #000000;
+  padding: 10px;
+  border-radius: 5rem;
+  border: 2px dashed white;
+}
+
+.services-box .bx:hover{
+  font-size: 2.4rem;
+  color: #000000;
+  padding: 10px;
+  border-radius: 5rem;
+  border: 2px inset white;
+}
+
+.services-box h2{
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+  color: white;
+}
+
+.services-box p{
+  font-size: 0.9rem;
+}
+
+@media (max-width:600px) {
+  .services-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10%;
+    border-radius: 0.4rem;
+    transition: 0.5s all cubic-bezier(0.75,0.82,0.165,1);
+  }
+
+  .services-box{
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 8%;
+  }
+}

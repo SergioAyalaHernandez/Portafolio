@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,900;1,400&family=Poppins:wght@500;700&display=swap');
+
+.home{
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', Montserrat;
+
+}
+
+.home-content{
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #98a7fc;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.home-img{
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.home-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-text h3{
+  position: relative;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-size: 1.9rem;
+  color: #ffff;
+
+}
+
+.home-text h3::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  left: -15px;
+  width: 20px;
+  height: 2px;
+  background-color: #ffffff;
+}
+.home-text h3::after{
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  right: -35px;
+  width: 20px;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.home-text h2{
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 4.8rem;
+}
+
+.home-text p{
+  font-size: 0.938rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.social{
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.social .bx{
+  font-size: 1.3rem;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}
+
+.social .bxl-facebook:hover{
+  background: #1877f2 ;
+}
+.social .bxl-instagram:hover{
+  background: #cc296c ;
+}
+.social .bxl-linkedin:hover{
+  background: #1877f2 ;
+}
+.social .bxl-twitter:hover{
+  background: #6a9aee ;
+}
+
+.social .bxl-github:hover{
+  background: #c1cde3;
+}
+
+.home .color{
+  color: white;
+}
