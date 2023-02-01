@@ -73,6 +73,17 @@
 }
 
 @media (max-width:600px) {
+
+  .heading{
+    padding-top: 5%;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #949090;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-weight: bolder;
+  }
+
   .services-content{
     display: flex;
     flex-direction: column;

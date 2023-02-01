@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,900;1,400&family=Poppins:wght@500;700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+  margin-top: 5%;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #949090;
+  text-align: center;
+  margin-bottom: 5rem;
+  font-weight: bolder;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  width: 100%;
+  display: grid;
+  row-gap: 1rem;
+}
+
+.contact-form input, .contact-form textarea{
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  padding: 15px;
+  color: #000000;
+  background: #e0dede;
+  border-radius: 0.4rem;
+}
+
+.contact-form .send-btn{
+  width: auto;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px;
+  background: #7a7a7a;
+  cursor: pointer;
+}
+
+.contact-form .send-btn:hover{
+  background: #546eff;
+  transition: 0.3s all linear;
+}
+.message{
+  resize: none;
+}
+@media (max-width:600px) {
+  .heading{
+    padding-top: 2%;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #949090;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-weight: bolder;
+  }
+  .contact-form{
+    max-width: 350px;
+    max-height: 500px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    row-gap: 1rem;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+  }
+}
+

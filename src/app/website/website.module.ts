@@ -11,6 +11,8 @@ import { ParteTwoComponent } from './pages/home/parte-two/parte-two.component';
 import { ParteThreeComponent } from './pages/home/parte-three/parte-three.component';
 import { ParteFourComponent } from './pages/home/parte-four/parte-four.component';
 import { ParteFiveComponent } from './pages/home/parte-five/parte-five.component';
+import { ParteSixComponent } from './pages/home/parte-six/parte-six.component';
+import {SwiperModule} from "swiper/angular";
 
 
 @NgModule({
@@ -23,11 +25,13 @@ import { ParteFiveComponent } from './pages/home/parte-five/parte-five.component
     ParteTwoComponent,
     ParteThreeComponent,
     ParteFourComponent,
-    ParteFiveComponent
+    ParteFiveComponent,
+    ParteSixComponent
   ],
-  imports: [
-    CommonModule,
-    WebsiteRoutingModule
-  ]
+    imports: [
+        CommonModule,
+        WebsiteRoutingModule,
+        SwiperModule
+    ]
 })
 export class WebsiteModule { }

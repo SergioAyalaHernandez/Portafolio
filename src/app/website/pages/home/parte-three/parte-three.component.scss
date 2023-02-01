@@ -54,3 +54,10 @@
   text-align: justify;
   margin-bottom: 1.5rem;
 }
+
+.btn:hover{
+  background-color: chartreuse;
+  transition: 0.9s;
+  color: #000;
+  transform: scale(110%);
+}
