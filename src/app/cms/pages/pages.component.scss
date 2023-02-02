@@ -20,8 +20,11 @@ body{
   height: 100vh;
 }
 .about-left-content > div{
-  background-color: #ce0606;
-  padding: 3rem 3rem 2.5rem 5rem;
+  background-image:
+    linear-gradient(
+        315deg, #232323, #c90000
+    );
+  padding: 4rem 2rem 2.5rem 3rem;
   text-align: center;
 }
 .about-left-content{
@@ -93,6 +96,10 @@ body{
 }
 .icons li{
   list-style-type: none;
+  background-image:
+    linear-gradient(
+        315deg, #540000, #070707
+    );
   color: #fff;
   width: 40px;
   height: 40px;
@@ -120,7 +127,7 @@ body{
   text-align: center;
 }
 .about-right h1{
-  font-size: 5rem;
+  font-size: 4rem;
   text-transform: uppercase;
 }
 .about-right h1 span{
@@ -147,6 +154,7 @@ body{
   cursor: pointer;
 }
 .btn.btn-pink{
+  text-decoration: none;
   background: #ff0000;
   color: #fff;
   border-color: #ff0000;
@@ -185,3 +193,4 @@ body{
   }
 
 }
+
