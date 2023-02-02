@@ -16,18 +16,21 @@ import {SwiperModule} from "swiper/angular";
 
 
 @NgModule({
-  declarations: [
-    FooterComponent,
-    NavComponent,
-    LayaoutComponent,
-    HomeComponent,
-    ParteOneComponent,
-    ParteTwoComponent,
-    ParteThreeComponent,
-    ParteFourComponent,
-    ParteFiveComponent,
-    ParteSixComponent
-  ],
+    declarations: [
+        FooterComponent,
+        NavComponent,
+        LayaoutComponent,
+        HomeComponent,
+        ParteOneComponent,
+        ParteTwoComponent,
+        ParteThreeComponent,
+        ParteFourComponent,
+        ParteFiveComponent,
+        ParteSixComponent
+    ],
+    exports: [
+        NavComponent
+    ],
     imports: [
         CommonModule,
         WebsiteRoutingModule,
