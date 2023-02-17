@@ -18,7 +18,7 @@
 .contact-form{
   max-width: 600px;
   margin: auto;
-  width: 100%;
+  width: auto;
   display: grid;
   row-gap: 1rem;
 }
@@ -62,19 +62,40 @@
     font-weight: bolder;
   }
   .contact-form{
-    max-width: 350px;
-    max-height: 500px;
+
     margin: auto;
-    width: 100%;
+    width: auto;
     display: grid;
     row-gap: 1rem;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 5%;
+
   }
   .message{
     resize: none;
     padding: 1.8em 1em;
     margin-bottom: .5em;
   }
+
+  .contact-form input, .contact-form textarea{
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    width: 70%;
+    color: #000000;
+    background: #e0dede;
+    border-radius: 0.4rem;
+  }
+
+  .contact-form .send-btn{
+    width: 85%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 12px;
+    background: #7a7a7a;
+    cursor: pointer;
+  }
+
 }
 
