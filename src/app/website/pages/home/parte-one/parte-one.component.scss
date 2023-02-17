@@ -119,3 +119,12 @@
 .home .color{
   color: white;
 }
+
+@media screen and (max-width: 600px) {
+  .home-text p{
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
