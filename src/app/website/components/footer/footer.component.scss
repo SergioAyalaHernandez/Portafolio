@@ -26,6 +26,9 @@ footer{
   display: flex;
   flex-direction: column;
   padding: 40px;
+  width: auto;
+  background-color: darkred;
+  overflow: hidden;
 }
 
 .box__footer .logo img{
