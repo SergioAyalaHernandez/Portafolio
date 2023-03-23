@@ -5,13 +5,17 @@ import { CmsRoutingModule } from './cms-routing.module';
 import { PagesComponent } from './pages/pages.component';
 import { LayaoutComponent } from './components/layaout/layaout.component';
 import { NavComponent } from './components/nav/nav.component';
+import { GameComponent } from './game/game.component';
+import { AlgodejsComponent } from './algodejs/algodejs.component';
 
 
 @NgModule({
   declarations: [
     PagesComponent,
     LayaoutComponent,
-    NavComponent
+    NavComponent,
+    GameComponent,
+    AlgodejsComponent
   ],
   imports: [
     CommonModule,
