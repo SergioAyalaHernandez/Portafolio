@@ -1,0 +1,144 @@
+/* Estilos para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Estilos para el contenedor principal */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #666;
+}
+
+/* Estilos para el contenido principal */
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 40px 0;
+}
+
+article {
+  flex-basis: 48%;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #666;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Estilos para la barra lateral */
+aside {
+  background-color: #ce0606;
+  flex-basis: 30%;
+}
+
+.popular-recipes {
+  margin-bottom: 40px;
+}
+
+.popular-recipes h2 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+.popular-recipes a {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.popular-recipes a:hover {
+  color: #666;
+}
+
+.contact-details {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.contact-details h2 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+.contact-details p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+}
+
+/* Estilos para el pie de página */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+}
+
+footer h1 {
+  margin: 0;
+  font-size: 18px;
+  color: #666;
+}
