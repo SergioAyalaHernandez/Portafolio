@@ -3,24 +3,12 @@
 @import url(./styles/reset.css);
 @import "~swiper/swiper-bundle.css";
 
+.bodyinicial {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
 
 
-.products--grid {
-  app-img {
-    img {
-      border-radius: 10px;
-      max-height: 200px;
-    }
-  }
-}
-.product-detail {
-  padding: .5em;
-  .swiper-slide {
-    height: 200px;
-    display: flex;
-    align-items: center;
-    img {
-      width: 100%;
-    }
-  }
-}

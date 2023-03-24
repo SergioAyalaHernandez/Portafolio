@@ -1,0 +1,64 @@
+<h1>Talleres de poesía</h1>
+<p>llevamos a cabo una serie de talleres y simposios de poesia durante todo el año.</p>
+<p>Tenga en cuenta que los siguientes eventos son gratuitos para los miembros de la comunidad</p>
+<ul>
+  <li>Poesia Clasica</li>
+  <li>Realismo Magico</li>
+  <li>Obras de Nadaismo</li>
+</ul>
+<table>
+  <tr class="head">
+    <th>Poesía clásica</th>
+    <td>Sab, 4 Feb 2023 <br> 11am - 2pm</td>
+    <td>Sab, 3 Mar 2023 <br> 11am - 2pm</td>
+    <td>Sab, 17 Mar 2023 <br> 11am - 2pm</td>
+  </tr>
+  <tr class="even">
+    <th>Realismo Mágico</th>
+    <td>Sab, 4 Feb 2023 <br> 11am - 1pm</td>
+    <td>Sab, 3 Mar 2023 <br> 11am - 1pm</td>
+    <td>Sab, 17 Mar 2023 <br> 11am - 1pm</td>
+  </tr>
+  <tr>
+    <th>Obras de nadaismo</th>
+    <td>Sab, 4 Feb 2023 <br> 11am - 2pm</td>
+    <td>Sab, 3 Mar 2023 <br> 11am - 2pm</td>
+    <td>Sab, 17 Mar 2023 <br> 11am - 2pm</td>
+  </tr>
+  <tr class="even">
+    <th>Nuevas Corrientes</th>
+    <td>Sab, 4 Feb 2023 <br> 11am - 4pm</td>
+    <td>Sab, 3 Mar 2023 <br> 11am - 4pm</td>
+    <td>Sab, 17 Mar 2023 <br> 11am - 4pm</td>
+  </tr>
+</table>
+
+<form>
+  <fieldset>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" placeholder="Escriba su nombre" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Escriba su email" required>
+
+    <label for="center">Centro cercano:</label>
+    <select id="center" name="center" required>
+      <option value="" disabled selected>Seleccione una opción</option>
+      <option value="Bogotá">Bogotá</option>
+      <option value="Medellín">Medellín</option>
+      <option value="Ibagué">Ibagué</option>
+    </select>
+
+    <span>¿Es miembro de la comunidad?</span>
+      <label class="checksi" for="yes">
+        <input type="radio" id="yes" name="member" value="yes" required>
+        si
+      </label>
+      <label class="checkno" for="no">
+        <input type="radio" id="no" name="member" value="no" required>
+        No
+      </label>
+  </fieldset>
+
+  <input type="submit" value="Enviar">
+</form>

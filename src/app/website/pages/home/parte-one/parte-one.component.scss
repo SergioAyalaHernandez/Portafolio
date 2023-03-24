@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,900;1,400&family=Poppins:wght@500;700&display=swap');
 
 .home{
-  min-height: 600px;
+  min-height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +12,7 @@
 .home-content{
   max-width: 600px;
   width: 100%;
-  margin: auto;
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,16 +62,7 @@
   height: 2px;
   background-color: #ffffff;
 }
-.home-text h3::after{
-  content: '';
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%);
-  right: -35px;
-  width: 20px;
-  height: 2px;
-  background-color: #ffffff;
-}
+
 
 .home-text h2{
   font-weight: bold;
