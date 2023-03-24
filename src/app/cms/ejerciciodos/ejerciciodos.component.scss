@@ -1,25 +1,24 @@
-/* Estilos para dispositivos móviles */
+
 @media screen and (max-width: 600px) {
-  h1 {
-    font-size: 24px;
+  .tituloInicial{
+    font-size: 1.5rem;
   }
-  p {
-    font-size: 14px;
-  }
-  ul{
+  .titulos{
     display: flex;
     flex-direction: column;
   }
-  li {
-    padding: 5%;
-    font-size: 14px;
+  .titulos li{
+    padding-bottom: 2%;
+    font-size: 0.7rem;
+    text-align: center;
   }
-  th, td {
-    font-size: 12px;
+  p{
+    font-size: 0.7rem;
   }
-  label {
-    font-size: 14px;
+  table{
+    font-size: 0.5rem;
   }
+
   input, select {
     font-size: 14px;
     width: 100%;
@@ -28,31 +27,7 @@
   }
 }
 
-/* Estilos para dispositivos de escritorio */
-@media screen and (min-width: 601px) {
-  h1 {
-    font-size: 36px;
-  }
-  p {
-    font-size: 16px;
-  }
-  li {
-    font-size: 16px;
-  }
-  th, td {
-    font-size: 14px;
-  }
-  label {
-    font-size: 16px;
-  }
-  input, select {
-    font-size: 16px;
-    width: 50%;
-    margin-right: 10px;
-  }
-}
 
-/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
@@ -182,3 +157,5 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #3e8e41;
 }
+
+
