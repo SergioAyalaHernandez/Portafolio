@@ -5,7 +5,7 @@
 }
 
 
-div {
+.todomenu{
   display: grid;
   max-width: 100%;
   min-height: 100vh;
@@ -15,6 +15,9 @@ div {
       "header header header"
       "nav content content";
   header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     grid-area: header;
     background-color: #000728;
     color: white;
@@ -22,6 +25,8 @@ div {
     box-shadow: 1px 2px 4px 0 rgb(21 99 157 / 16%);
     border-bottom: 1px solid rgba(21,99,157,0.16);
   }
+
+
   nav {
     grid-area: nav;
     border-right: 1px solid rgba(21,99,157,0.16);
@@ -93,7 +98,7 @@ li:hover {
 }
 
 @media screen and (max-width: 600px) {
-  div {
+  .todomenu {
     display: grid;
     max-width: 100%;
     min-height: 100vh;
@@ -102,5 +107,17 @@ li:hover {
   nav{
     font-size: 0.5rem;
   }
+}
+
+.social .bx{
+  font-size: 1.3rem;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}
+
+.social .bxl-twitter:hover{
+  background: #6a9aee ;
 }
 
