@@ -45,3 +45,9 @@
 .tablae tbody tr:nth-child(odd) {
   background-color: #f9f9f9;
 }
+
+@media screen and (max-width: 600px) {
+  .tablae{
+    font-size: 0.5rem;
+  }
+}

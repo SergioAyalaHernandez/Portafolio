@@ -92,5 +92,12 @@ li:hover {
   background-color: #068119;
 }
 
-
+@media screen and (max-width: 600px) {
+  div {
+    display: grid;
+    max-width: 100%;
+    min-height: 100vh;
+    grid-template-columns: 100px 1fr;
+  }
+}
 

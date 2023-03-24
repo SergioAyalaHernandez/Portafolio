@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,900;1,400&family=Poppins:wght@500;700&display=swap');
 
 .home{
-  min-height: 100%;
+  min-height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +12,7 @@
 .home-content{
   max-width: 600px;
   width: 100%;
-  margin: 0;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,7 +62,6 @@
   height: 2px;
   background-color: #ffffff;
 }
-
 
 .home-text h2{
   font-weight: bold;
