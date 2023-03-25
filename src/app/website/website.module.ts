@@ -29,7 +29,8 @@ import {SwiperModule} from "swiper/angular";
         ParteSixComponent
     ],
     exports: [
-        NavComponent
+        NavComponent,
+        FooterComponent
     ],
     imports: [
         CommonModule,

@@ -12,6 +12,7 @@ import { EjerciciodosComponent } from './ejerciciodos/ejerciciodos.component';
 import { EjerciciotresComponent } from './ejerciciotres/ejerciciotres.component';
 import { EjerciciocuatroComponent } from './ejerciciocuatro/ejerciciocuatro.component';
 import { EjerciciocincoComponent } from './ejerciciocinco/ejerciciocinco.component';
+import {WebsiteModule} from "../website/website.module";
 
 
 @NgModule({
@@ -27,9 +28,10 @@ import { EjerciciocincoComponent } from './ejerciciocinco/ejerciciocinco.compone
     EjerciciocuatroComponent,
     EjerciciocincoComponent
   ],
-  imports: [
-    CommonModule,
-    CmsRoutingModule
-  ]
+    imports: [
+        CommonModule,
+        CmsRoutingModule,
+        WebsiteModule
+    ]
 })
 export class CmsModule { }
