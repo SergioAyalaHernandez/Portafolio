@@ -1,44 +1,54 @@
+<header>
+
+  <nav>
+    <div>
+      <h1>Yoko's Kitchen</h1>
+    </div>
+    <input type="checkbox" id="check">
+    <label for="check" class="bar-btn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <ul class="nav-menu">
+      <li><a href="/home">Home</a></li>
+      <li><a [routerLink]="'/cms/ejercicio1'">About</a></li>
+      <li><a href="">Services</a></li>
+     </ul>
+  </nav>
+</header>
+
+
 <body>
 <div class="wrapper">
-  <header>
-    <h1>Yoko's Kitchen</h1>
-    <nav>
-      <ul>
-        <li><a href=""></a>Inicio</li>
-        <li><a href=""></a>Eventos</li>
-        <li><a href=""></a>Reservas</li>
-        <li><a href=""></a>Actividad 2</li>
-        <li><a href=""></a>Actividad 3</li>
-      </ul>
-    </nav>
-  </header>
-
-  <section>
-    <article>
-      <figure>
-        <img src="" alt="">
-        <figcaption>Bok Choi</figcaption>
-      </figure>
-      <span>
-      <h2>Verduras en salsa</h2>
-      <h3>Una receta muy sencilla</h3>
-    </span>
-      <p>Esta receta es un delicioso guiso con verduras, pero las verduras son sazonadas previamente en una salsa dulzona de soja y azúcar.</p>
-    </article>
-    <article>
-      <figure>
-        <img src="" alt="">
-        <figcaption>Salsa Teriyaki</figcaption>
-      </figure>
-      <span>
-      <h2>Salsas Agridulces</h2>
-      <h3>El mejor acompañamiento</h3>
-    </span>
-      <p>Acompaña los alimentos son asados, horneados o a la parrilla, con un adobo de salsa agridulce.</p>
-    </article>
+   <section class="tarjetas">
+     <div class="card">
+       <article>
+         <figure>
+           <img src="../../../assets/img/bok-choi.jpg" alt="">
+           <figcaption>Bok Choi</figcaption>
+         </figure>
+         <div class="content">
+           <h2>Verduras en salsa</h2>
+           <h3>Una receta muy sencilla</h3>
+           <p>Esta receta es un delicioso guiso con verduras, pero las verduras son sazonadas previamente en una salsa dulzona de soja y azúcar.</p>
+         </div>
+       </article>
+     </div>
+     <div class="card">
+       <article>
+         <figure>
+           <img src="../../../assets/img/teriyaki.jpg" alt="">
+           <figcaption>Salsa Teriyaki</figcaption>
+         </figure>
+         <div class="content">
+           <h2>Salsas Agridulces</h2>
+           <h3>El mejor acompañamiento</h3>
+           <p>Acompaña los alimentos son asados, horneados o a la parrilla, con un adobo de salsa agridulce.</p>
+         </div>
+       </article>
+     </div>
   </section>
 
-  <aside>
+  <aside class="asidei">
     <section class="popular-recipes">
       <h2>Otras Recetas</h2>
       <a href="">Receta 1</a>
@@ -46,15 +56,18 @@
       <a href="">Receta 3</a>
       <a href="">Receta 4</a>
     </section>
-    <section class="contact-details">
-      <h2>Contactanos</h2>
-      <p>Comida Asiatica <br> Avenida longitudinal <br> Sector Principal <br>Capital</p>
-    </section>
   </aside>
-  <footer>
-    <h1>@Copy; 2023 Comida Asiatica</h1>
-  </footer>
+
 </div>
-
-
 </body>
+<footer>
+  <section class="contact-details">
+    <h2>Contactanos</h2>
+    <h2>Comida Asiatica </h2>
+    <h2>Avenida longitudinal</h2>
+    <h2>Sector Principal</h2>
+    <h2>Capital</h2>
+  </section>
+  <h1>@Copy; 2023 Comida Asiatica</h1>
+</footer>
+

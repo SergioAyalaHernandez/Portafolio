@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,900;1,400&family=Poppins:wght@500;700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-image:
+    linear-gradient(
+        315deg,#d3dbdd,#f0c540
+    );
+  color: #212529;
+  border-color:#212529;
+  border-width: 0.5px 0.5px 5px 5px;
+  border-style: solid;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  padding-left: 5%;
+  padding-left: 5%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact {
+  font-weight: bold;
+}
+figure{
+  background-image:
+    linear-gradient(
+        315deg,#d3dbdd,#f0c540
+    );
+  color: #212529;
+  border-color:#212529;
+  border-width: 0.5px 0.5px 5px 5px;
+  border-style: solid;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+@media screen and (max-width: 600px){
+  .navcuatro{
+    font-size: 0.4rem;
+  }
+  .navcuatro h1, li, a{
+    font-size: 0.8rem;
+  }
+  .navcuatro a{
+    font-size: 0.4rem;
+  }
+  .contact{
+    font-size: 0.4rem;
+  }
+  p{
+    font-size: 0.4rem;
+  }
+}
+
+
+
+
+
