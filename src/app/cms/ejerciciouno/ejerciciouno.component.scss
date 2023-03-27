@@ -3,49 +3,73 @@
 *{
   font-family: 'Poppins', sans-serif;
 }
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
 
 .tablae {
-  font-family: Arial, sans-serif;
-  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+.tabled {
   width: 100%;
-}
-.tabled{
-  border-style: solid;
-  border-radius: 20px;
+  border-collapse: collapse;
 }
 
-.tablae td, .tablae th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-.tablae th {
-  padding-top: 12px;
-  padding-bottom: 12px;
+.tabled th,
+.tabled td {
+  padding: 10px;
   text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabled th {
   background-color: #f2f2f2;
-  color: #333;
 }
 
-.tablae td:first-child {
-  font-weight: bold;
+.tabled tr:hover {
+  background-color: #f5f5f5;
 }
 
-.tablae a {
-  color: #333;
-  text-decoration: none;
-}
 
-.tablae a:hover {
-  text-decoration: underline;
-}
+@media screen and (max-width: 480px) {
+  section {
+    padding: 30px;
+  }
 
-.tablae tbody tr:nth-child(odd) {
-  background-color: #f9f9f9;
-}
+  h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
 
-@media screen and (max-width: 600px) {
-  .tablae{
+  p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  .tablae {
+    margin-top: 30px;
     font-size: 0.5rem;
+  }
+
+  .tabled th,
+  .tabled td {
+    padding: 8px;
   }
 }
