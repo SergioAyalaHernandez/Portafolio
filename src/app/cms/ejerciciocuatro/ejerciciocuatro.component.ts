@@ -12,4 +12,7 @@ export class EjerciciocuatroComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  saludar(): void {
+    alert("Hola mundo, algo que corre desde TS");
+  }
 }
