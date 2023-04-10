@@ -9,6 +9,9 @@ import {EjerciciodosComponent} from "./ejerciciodos/ejerciciodos.component";
 import {EjerciciotresComponent} from "./ejerciciotres/ejerciciotres.component";
 import {EjerciciocuatroComponent} from "./ejerciciocuatro/ejerciciocuatro.component";
 import {EjerciciocincoComponent} from "./ejerciciocinco/ejerciciocinco.component";
+import {EjercicioseisComponent} from "./ejercicioseis/ejercicioseis.component";
+import {EjerciciosieteComponent} from "./ejerciciosiete/ejerciciosiete.component";
+import {EjercicioochoComponent} from "./ejercicioocho/ejercicioocho.component";
 
 const routes: Routes = [
   {
@@ -51,6 +54,18 @@ const routes: Routes = [
       {
         path: 'ejercicio5',
         component: EjerciciocincoComponent
+      },
+      {
+        path: 'ejercicio6',
+        component: EjercicioseisComponent
+      },
+      {
+        path: 'ejercicio7',
+        component: EjerciciosieteComponent
+      },
+      {
+        path: 'ejercicio8',
+        component: EjercicioochoComponent
       }
     ]
   }

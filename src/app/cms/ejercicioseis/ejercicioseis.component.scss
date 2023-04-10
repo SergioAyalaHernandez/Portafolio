@@ -1,0 +1,66 @@
+
+@media screen and (max-width: 480px) {
+  .titulos {
+    font-size: 0.8rem;
+  }
+  .contact {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  button {
+    font-size: 1rem;
+  }
+  .titulosp {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .headline {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  iframe {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .titulos {
+    font-size: 1.5rem;
+  }
+  .contact {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  button {
+    font-size: 1.2rem;
+  }
+  .titulosp {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  .headline {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+
+@media screen and (min-width: 769px) {
+  .titulos {
+    font-size: 2rem;
+  }
+  .contact {
+    margin-right: 1rem;
+  }
+  button {
+    font-size: 1.5rem;
+  }
+  .titulosp {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .headline {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+}

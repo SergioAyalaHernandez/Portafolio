@@ -13,6 +13,9 @@ import { EjerciciotresComponent } from './ejerciciotres/ejerciciotres.component'
 import { EjerciciocuatroComponent } from './ejerciciocuatro/ejerciciocuatro.component';
 import { EjerciciocincoComponent } from './ejerciciocinco/ejerciciocinco.component';
 import {WebsiteModule} from "../website/website.module";
+import { EjercicioseisComponent } from './ejercicioseis/ejercicioseis.component';
+import { EjerciciosieteComponent } from './ejerciciosiete/ejerciciosiete.component';
+import { EjercicioochoComponent } from './ejercicioocho/ejercicioocho.component';
 
 
 @NgModule({
@@ -26,7 +29,10 @@ import {WebsiteModule} from "../website/website.module";
     EjerciciodosComponent,
     EjerciciotresComponent,
     EjerciciocuatroComponent,
-    EjerciciocincoComponent
+    EjerciciocincoComponent,
+    EjercicioseisComponent,
+    EjerciciosieteComponent,
+    EjercicioochoComponent
   ],
     imports: [
         CommonModule,

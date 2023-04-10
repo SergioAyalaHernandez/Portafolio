@@ -14,4 +14,13 @@ export class CustomPreloadService implements PreloadAllModules{
     }
     return of(null);
   }
+
+  public loadScript(){
+    console.log("script preparing");
+    let node = document.createElement('script');
+    node.src='../assets/test.js';
+    node.type= 'text/javascript';
+    node.async = true;
+    document.getElementsByTagName('head')[0].appendChild(node);
+  }
 }
