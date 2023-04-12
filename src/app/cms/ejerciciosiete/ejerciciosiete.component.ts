@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {CustomPreloadService} from "../../services/custom-preload.service";
 
 @Component({
   selector: 'app-ejerciciosiete',
@@ -7,9 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EjerciciosieteComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private customService: CustomPreloadService
+  ) { }
 
   ngOnInit(): void {
+    this.customService.canvas();
   }
 
+  public canvas2(): void{
+    this.customService.canvas();
+    this.customService.canvas2();
+  }
+  public flor(): void{
+    this.customService.canvas();
+    this.customService.flor();
+  }
+  public perro(): void{
+    this.customService.canvas();
+    this.customService.perro();
+  }
 }

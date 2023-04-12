@@ -22,4 +22,6 @@ export class EjercicioseisComponent implements OnInit {
     this.customService.loadScript();
   }
 
+
+
 }
