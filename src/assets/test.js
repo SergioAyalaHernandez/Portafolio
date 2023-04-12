@@ -1,4 +1,3 @@
-alert("Prueba para animar con Reveal");
 window.sr = ScrollReveal();
 
   sr.reveal('.tagline',{
