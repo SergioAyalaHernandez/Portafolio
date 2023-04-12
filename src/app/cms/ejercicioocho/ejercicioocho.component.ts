@@ -13,7 +13,15 @@ export class EjercicioochoComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.customService.canvas();
+  }
+
+  public paint(): void{
     this.customService.paint();
   }
+  public juego(): void{
+    this.customService.tiro();
+  }
+
 
 }
