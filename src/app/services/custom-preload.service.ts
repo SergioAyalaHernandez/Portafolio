@@ -73,4 +73,11 @@ export class CustomPreloadService implements PreloadAllModules{
     node.async = true;
     document.getElementsByTagName('head')[0].appendChild(node);
   }
+  public convertidor(){
+    let node = document.createElement('script');
+    node.src='../assets/convertidor.js';
+    node.type= 'text/javascript';
+    node.async = true;
+    document.getElementsByTagName('head')[0].appendChild(node);
+  }
 }

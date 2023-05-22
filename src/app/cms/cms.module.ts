@@ -16,6 +16,7 @@ import {WebsiteModule} from "../website/website.module";
 import { EjercicioseisComponent } from './ejercicioseis/ejercicioseis.component';
 import { EjerciciosieteComponent } from './ejerciciosiete/ejerciciosiete.component';
 import { EjercicioochoComponent } from './ejercicioocho/ejercicioocho.component';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -34,10 +35,12 @@ import { EjercicioochoComponent } from './ejercicioocho/ejercicioocho.component'
     EjerciciosieteComponent,
     EjercicioochoComponent
   ],
-    imports: [
-        CommonModule,
-        CmsRoutingModule,
-        WebsiteModule
-    ]
+  imports: [
+    CommonModule,
+    CmsRoutingModule,
+    WebsiteModule,
+    ReactiveFormsModule,
+    FormsModule
+  ]
 })
 export class CmsModule { }
