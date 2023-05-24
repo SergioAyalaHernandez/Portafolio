@@ -35,6 +35,16 @@ export class EjerciciounoComponent implements OnInit {
     this.octal = this.decimal.toString(8);
   }
 
+  reiniciar(){
+    this.resultado ="";
+    this.binario1 ="";
+    this.octal="";
+    this.binario2="";
+    this.hexadecimalResul="";
+    this.octalResul="";
+    this.binario="";
+  }
+
   sumar() {
     if (this.binario2 && this.binario1) {
       const num1 = parseInt(this.binario1, 2);
