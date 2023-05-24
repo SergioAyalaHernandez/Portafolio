@@ -11,6 +11,8 @@
 
 <div *ngIf="binario !== ''" class="resultado">
   <p>Resultado Binario: {{ binario }}</p>
+  <p>Resultado Hexadecimal: {{ hexadecimal }}</p>
+  <p>Resultado Octal: {{ octal }}</p>
 </div>
 
 
@@ -18,19 +20,28 @@
 
 <div>
   <label for="binario1">Binario 1:</label>
-  <input type="text" id="binario1" [(ngModel)]="binario1">
+  <input type="text" id="binario1" [(ngModel)]="binario1" #inputBinario1>
 </div>
 
 <div>
   <label for="binario2">Binario 2:</label>
-  <input type="text" id="binario2" [(ngModel)]="binario2">
+  <input type="text" id="binario2" [(ngModel)]="binario2" #inputBinario2>
 </div>
 
 <div>
-  <button (click)="sumar()">Sumar</button>
-  <button (click)="restar()">Restar</button>
+  <p *ngIf="!validarFormatoBinario(inputBinario2.value) || !validarFormatoBinario(inputBinario1.value)">Podrá realizar
+    sumas y restas hasta que digite solo valores con 1 y 0</p>
+  <button *ngIf="validarFormatoBinario(inputBinario2.value) && validarFormatoBinario(inputBinario1.value)" (click)="sumar()">Sumar</button>
+  <button *ngIf="validarFormatoBinario(inputBinario2.value) && validarFormatoBinario(inputBinario1.value)" (click)="restar()">Restar</button>
+</div>
+
+<div *ngIf="resultado !== '' || camposIncompletos" class="resultado">
+  <p *ngIf="resultado !== ''">Resultado: {{ resultado }}</p>
+  <p *ngIf="camposIncompletos">Debe completar ambos campos binarios</p>
 </div>
 
 <div *ngIf="resultado !== ''" class="resultado">
-  <p>Resultado: {{ resultado }}</p>
+  <p>Resultado Binario: {{ resultado }}</p>
+  <p>Resultado Hexadecimal: {{ hexadecimalResul }}</p>
+  <p>Resultado Octal: {{ octalResul }}</p>
 </div>
