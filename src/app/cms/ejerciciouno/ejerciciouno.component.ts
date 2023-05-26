@@ -43,6 +43,7 @@ export class EjerciciounoComponent implements OnInit {
     this.hexadecimalResul="";
     this.octalResul="";
     this.binario="";
+    this.decimal=0;
   }
 
   sumar() {
