@@ -19,6 +19,12 @@ const routes: Routes = [
     canActivate: [AdminGuard]
   },
   {
+    path: 'ps',
+
+    loadChildren:() => import('./ps/ps.module').then(m=> m.PsModule),
+    canActivate: [AdminGuard]
+  },
+  {
     path: '**',
     component: NotFoundComponent
   }
