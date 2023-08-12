@@ -8,6 +8,7 @@
 }
 
 .container {
+  height: 100%;
   padding-top: 20px;
   text-align: center;
   font-family: 'Borel', cursive;
@@ -100,16 +101,13 @@
 
 
 .main-image {
-  margin:  auto; /* Centrar horizontalmente */
   display: block;
-  padding: 10px;
-  border: solid white;
-  border-radius: 20px;
+
 }
 
 
 .text2{
-  padding: 10px;
+  padding-top: 10px;
 }
 
 
