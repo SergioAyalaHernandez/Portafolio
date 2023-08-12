@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+.body{
+  font-family: 'Borel', cursive;
+}
+
+.container {
+  text-align: center;
+  font-family: 'Borel', cursive;
+}
+
+.main-image {
+  border-radius: 1%; /* Marco redondeado */
+  margin:  auto; /* Centrar horizontalmente */
+  display: block;
+}
+
+.additional-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 290px;
+  max-width: 290px;
+}
+
+.additional-image {
+  flex-basis: calc(33.33% - 10px); /* Tamaño de las imágenes adicionales */
+  border-radius: 10px; /* Marco redondeado */
+}
