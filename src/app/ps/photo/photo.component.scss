@@ -3,12 +3,61 @@
 
 .body{
   font-family: 'Borel', cursive;
+
 }
 
 .container {
   text-align: center;
   font-family: 'Borel', cursive;
+  display: block;
 }
+.container2 {
+  max-width: 1200px;
+  font-family: 'Borel', cursive;
+  display: flex;
+  margin: auto;
+  padding: 40px 0;
+  gap: 20px;
+}
+.contenedorMuestras{
+  width: 50%;
+  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+.card{
+
+  border-radius: 10px;
+  min-height: 200px;
+  font-family: 'Borel', cursive;
+  position: relative;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 40%;
+  gap: 20px;
+  border: solid;
+}
+
+.card .textos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.additional-image{
+  width: 50%;
+}
+
+.contenedorBase{
+  width: 50%;
+  border: solid;
+}
+
 
 .main-image {
   border-radius: 1%; /* Marco redondeado */
@@ -16,14 +65,6 @@
   display: block;
 }
 
-.additional-images {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 290px;
-  max-width: 290px;
-}
 
-.additional-image {
-  flex-basis: calc(33.33% - 10px); /* Tamaño de las imágenes adicionales */
-  border-radius: 10px; /* Marco redondeado */
-}
+
+
