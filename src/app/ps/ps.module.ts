@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { PsRoutingModule } from './ps-routing.module';
 import { PhotoComponent } from './photo/photo.component';
 import { LayoutComponent } from './layout/layout.component';
+import {WebsiteModule} from "../website/website.module";
 
 
 @NgModule({
@@ -11,9 +12,10 @@ import { LayoutComponent } from './layout/layout.component';
     PhotoComponent,
     LayoutComponent
   ],
-  imports: [
-    CommonModule,
-    PsRoutingModule
-  ]
+    imports: [
+        CommonModule,
+        PsRoutingModule,
+        WebsiteModule
+    ]
 })
 export class PsModule { }
